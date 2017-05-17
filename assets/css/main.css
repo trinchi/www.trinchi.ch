@@ -215,6 +215,19 @@
 
 	}
 
+/* CUSTOM Gallery */
+
+.lightbox-thumbnail {
+	/*border: 1px solid #ddd; /* Gray border */
+  /*border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+.lightbox-thumbnail:hover {
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
 /* Grid */
 
 	.row {
@@ -2270,6 +2283,11 @@
 					font-weight: 900;
 				}
 
+				/* customized for thinner navigation points */
+				#header nav ul li.current_thin > a {
+					font-weight: normal;
+				}
+
 		#header.reveal {
 			-moz-animation: reveal-header 0.5s;
 			-webkit-animation: reveal-header 0.5s;
@@ -2395,7 +2413,7 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/black-and-white-interior-macbook-drawing-71983.jpeg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
