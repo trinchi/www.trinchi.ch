@@ -2128,7 +2128,7 @@ a.anchor {
 
 		.wrapper.style2 {
 			background-color: #83d3c9;
-			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
+			/*background-image: url("images/light-bl.svg"), url("images/light-br.svg");*/
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
@@ -2421,7 +2421,8 @@ a.anchor {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/black-and-white-interior-macbook-drawing-71983.jpeg");
+		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/black-and-white-interior-macbook-drawing-71983.jpeg");*/
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("../../images/black-and-white-interior-macbook-drawing-71983.jpeg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2440,7 +2441,7 @@ a.anchor {
 			-webkit-animation-fill-mode: forwards;
 			-ms-animation-fill-mode: forwards;
 			animation-fill-mode: forwards;
-			background: rgba(52, 27, 43, 0.5);
+			/*background: rgba(52, 27, 43, 0.5);*/
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
@@ -2487,7 +2488,7 @@ a.anchor {
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+		/*background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");*/
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -2519,7 +2520,7 @@ a.anchor {
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		/*background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../../images/banner.jpg");*/
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2703,7 +2704,8 @@ a.anchor {
 		/* Banner */
 
 			#banner {
-				background-size: 15em, 15em, auto, cover;
+				/* background-size: 15em, 15em, auto, cover;*/
+				background-size: 15em, 15em, cover;
 			}
 
 		/* Main */
