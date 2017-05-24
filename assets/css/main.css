@@ -2127,11 +2127,11 @@ a.anchor {
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
-			/*background-image: url("images/light-bl.svg"), url("images/light-br.svg");*/
+			background-color: #7c8081;
+			/*background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
-			background-size: 25em, 25em;
+			background-size: 25em, 25em;*/
 			color: #fff;
 		}
 
@@ -2455,8 +2455,8 @@ a.anchor {
 
 			#banner .inner header {
 				display: inline-block;
-				border-bottom: solid 2px;
-				border-top: solid 2px;
+				/*border-bottom: solid 2px;
+				border-top: solid 2px;*/
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
 			}
