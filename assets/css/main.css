@@ -215,7 +215,12 @@
 
 	}
 
-/* CUSTOM Gallery */
+/* CUSTOM Lightbox Gallery */
+
+.lightbox-link {
+	border: solid 1px transparent;
+	text-decoration: none;
+}
 
 .lightbox-thumbnail {
 	/*border: 1px solid #ddd; /* Gray border */
@@ -225,7 +230,8 @@
 }
 
 .lightbox-thumbnail:hover {
-	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+	/*box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);*/
+	box-shadow: 0 0 2px 1px #7c8081;
 }
 
 /* CUSTOM nav anchor */
@@ -1679,7 +1685,7 @@ a.anchor {
 		margin-bottom: 5em;
 		padding-top: 7em;
 		position: relative;
-		text-align: center;
+		text-align: left;
 	}
 
 		header.special:before, header.special:after {
@@ -3151,7 +3157,8 @@ a.anchor {
 		/* Banner */
 
 			#banner {
-				background-size: 10em, 10em, auto, cover;
+				/*background-size: 10em, 10em, auto, cover;*/
+				background-size: 10em, 10em, cover;
 				padding: 6em 0;
 			}
 
