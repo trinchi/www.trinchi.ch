@@ -97,6 +97,9 @@ body.lb-disable-scrolling {
 .lb-nav a {
   outline: none;
   background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+
+  border: solid 1px transparent;
+  text-decoration: none;
 }
 
 .lb-prev, .lb-next {
@@ -204,6 +207,9 @@ body.lb-disable-scrolling {
   -moz-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
+
+  border: solid 1px transparent;
+  text-decoration: none;
 }
 
 .lb-data .lb-close:hover {
