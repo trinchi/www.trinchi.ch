@@ -242,6 +242,16 @@ a.anchor {
 	visibility: hidden;
 }
 
+/* CUSTOM company logo */
+img.logo {
+	width: 35%;
+}
+
+/* CUSTOM article image on the side of text */
+img.sideimg {
+	width: 100%;
+}
+
 /* Grid */
 
 	.row {
@@ -1608,7 +1618,7 @@ a.anchor {
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		color: #3fb1a3;
 		text-decoration: none;
-		border-bottom: dotted 1px;
+		/*border-bottom: dotted 1px;*/
 	}
 
 		a:hover {
@@ -1844,6 +1854,13 @@ a.anchor {
 		text-decoration: none;
 		position: relative;
 	}
+
+		/*
+		To get the icomoon icos to show up correctly, the '.icomoon' class
+		has to be changed to '.icomoon:before' in the corresponding style.css.
+		Additionally the 'line-height: 1;' setting has to be removed from the
+		mentioned class to line up the icons properly.
+		*/
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
@@ -2428,8 +2445,8 @@ a.anchor {
 		/*background-attachment: scroll, scroll, scroll, fixed;*/
 		background-attachment: scroll, scroll, fixed;
 		/*background-color: #645862;*/
-		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/black-and-white-interior-macbook-drawing-71983.jpeg");*/
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("../../images/black-and-white-interior-macbook-drawing-71983.jpeg");
+		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");*/
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("../../images/banner.jpg");
 		/*background-position: bottom left, bottom right, top left, top center;*/
 		background-position: bottom left, bottom right, top center;
 		/*background-repeat: no-repeat, no-repeat, repeat, no-repeat;*/
