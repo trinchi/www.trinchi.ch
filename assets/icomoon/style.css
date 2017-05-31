@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'icomoon';
   src:
-    url('fonts/icomoon.ttf?a6w40f') format('truetype'),
-    url('fonts/icomoon.woff?a6w40f') format('woff'),
-    url('fonts/icomoon.svg?a6w40f#icomoon') format('svg');
+    url('fonts/icomoon.ttf?29kz69') format('truetype'),
+    url('fonts/icomoon.woff?29kz69') format('woff'),
+    url('fonts/icomoon.svg?29kz69#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -150,6 +150,9 @@
 }
 .icomoon-wrench2:before {
   content: "\e991";
+}
+.icomoon-mallet:before {
+  content: "\e912";
 }
 .icomoon-warning2:before {
   content: "\e910";

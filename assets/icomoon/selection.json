@@ -20,8 +20,8 @@
         {}
       ],
       "properties": {
-        "order": 109,
-        "id": 47,
+        "order": 159,
+        "id": 49,
         "prevSize": 20,
         "code": 59665,
         "name": "mail"
@@ -45,8 +45,8 @@
       },
       "attrs": [],
       "properties": {
-        "id": 23,
-        "order": 112,
+        "id": 52,
+        "order": 162,
         "prevSize": 20,
         "code": 59649,
         "name": "briefcase2"
@@ -70,8 +70,8 @@
       },
       "attrs": [],
       "properties": {
-        "id": 28,
-        "order": 113,
+        "id": 53,
+        "order": 163,
         "prevSize": 20,
         "code": 59650,
         "name": "round-brush"
@@ -95,8 +95,8 @@
       },
       "attrs": [],
       "properties": {
-        "id": 24,
-        "order": 115,
+        "id": 55,
+        "order": 165,
         "prevSize": 20,
         "code": 59651,
         "name": "brush2"
@@ -120,8 +120,8 @@
       },
       "attrs": [],
       "properties": {
-        "id": 25,
-        "order": 119,
+        "id": 59,
+        "order": 169,
         "prevSize": 20,
         "code": 59652,
         "name": "drop"
@@ -145,8 +145,8 @@
       },
       "attrs": [],
       "properties": {
-        "id": 26,
-        "order": 125,
+        "id": 65,
+        "order": 175,
         "prevSize": 20,
         "code": 59653,
         "name": "flash"
@@ -170,15 +170,15 @@
       },
       "attrs": [],
       "properties": {
-        "id": 27,
-        "order": 140,
+        "id": 80,
+        "order": 191,
         "prevSize": 20,
         "code": 59654,
         "name": "flat-brush"
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 31
+      "iconIdx": 32
     },
     {
       "icon": {
@@ -195,15 +195,15 @@
       },
       "attrs": [],
       "properties": {
-        "id": 29,
-        "order": 146,
+        "id": 86,
+        "order": 197,
         "prevSize": 20,
         "code": 59655,
         "name": "tools"
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 37
+      "iconIdx": 38
     },
     {
       "icon": {
@@ -220,15 +220,15 @@
       },
       "attrs": [],
       "properties": {
-        "id": 30,
-        "order": 147,
+        "id": 87,
+        "order": 198,
         "prevSize": 20,
         "code": 59656,
         "name": "traffic-cone"
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 38
+      "iconIdx": 39
     },
     {
       "icon": {
@@ -247,8 +247,8 @@
       "attrs": [],
       "properties": {
         "ligatures": "ac_unit",
-        "id": 32,
-        "order": 110,
+        "id": 50,
+        "order": 160,
         "prevSize": 24,
         "code": 60219,
         "name": "ac_unit"
@@ -274,8 +274,8 @@
       "attrs": [],
       "properties": {
         "ligatures": "brush",
-        "id": 34,
-        "order": 114,
+        "id": 54,
+        "order": 164,
         "prevSize": 24,
         "code": 58286,
         "name": "brush"
@@ -301,8 +301,8 @@
       "attrs": [],
       "properties": {
         "ligatures": "build",
-        "id": 35,
-        "order": 116,
+        "id": 56,
+        "order": 166,
         "prevSize": 24,
         "code": 59497,
         "name": "build"
@@ -328,8 +328,8 @@
       "attrs": [],
       "properties": {
         "ligatures": "invert_colors",
-        "id": 40,
-        "order": 120,
+        "id": 60,
+        "order": 170,
         "prevSize": 24,
         "code": 59537,
         "name": "invert_colors"
@@ -355,8 +355,8 @@
       "attrs": [],
       "properties": {
         "ligatures": "format_color_fill",
-        "id": 36,
-        "order": 121,
+        "id": 61,
+        "order": 171,
         "prevSize": 24,
         "code": 57914,
         "name": "format_color_fill"
@@ -382,8 +382,8 @@
       "attrs": [],
       "properties": {
         "ligatures": "format_color_reset",
-        "id": 37,
-        "order": 126,
+        "id": 66,
+        "order": 176,
         "prevSize": 24,
         "code": 57915,
         "name": "format_color_reset"
@@ -409,8 +409,8 @@
       "attrs": [],
       "properties": {
         "ligatures": "format_paint",
-        "id": 38,
-        "order": 127,
+        "id": 67,
+        "order": 177,
         "prevSize": 24,
         "code": 57923,
         "name": "format_paint"
@@ -436,15 +436,15 @@
       "attrs": [],
       "properties": {
         "ligatures": "account_balance",
-        "id": 33,
-        "order": 130,
+        "id": 70,
+        "order": 181,
         "prevSize": 24,
         "code": 59471,
         "name": "account_balance"
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 21
+      "iconIdx": 22
     },
     {
       "icon": {
@@ -463,15 +463,15 @@
       "attrs": [],
       "properties": {
         "ligatures": "home",
-        "id": 39,
-        "order": 131,
+        "id": 71,
+        "order": 182,
         "prevSize": 24,
         "code": 59530,
         "name": "home4"
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 22
+      "iconIdx": 23
     },
     {
       "icon": {
@@ -490,15 +490,15 @@
       },
       "attrs": [],
       "properties": {
-        "id": 6,
-        "order": 135,
+        "id": 75,
+        "order": 186,
         "prevSize": 24,
         "name": "house-01",
         "code": 59648
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 26
+      "iconIdx": 27
     },
     {
       "icon": {
@@ -517,15 +517,15 @@
       "attrs": [],
       "properties": {
         "ligatures": "phone_in_talk",
-        "id": 41,
-        "order": 137,
+        "id": 77,
+        "order": 188,
         "prevSize": 24,
         "code": 58909,
         "name": "phone_in_talk"
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 28
+      "iconIdx": 29
     },
     {
       "icon": {
@@ -544,15 +544,15 @@
       "attrs": [],
       "properties": {
         "ligatures": "report",
-        "id": 42,
-        "order": 139,
+        "id": 79,
+        "order": 190,
         "prevSize": 24,
         "code": 57696,
         "name": "report"
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 30
+      "iconIdx": 31
     },
     {
       "icon": {
@@ -571,15 +571,15 @@
       "attrs": [],
       "properties": {
         "ligatures": "straighten",
-        "id": 43,
-        "order": 143,
+        "id": 83,
+        "order": 194,
         "prevSize": 24,
         "code": 58396,
         "name": "straighten"
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 34
+      "iconIdx": 35
     },
     {
       "icon": {
@@ -601,15 +601,15 @@
         {}
       ],
       "properties": {
-        "order": 144,
-        "id": 7,
+        "order": 195,
+        "id": 84,
         "prevSize": 24,
         "code": 127778,
         "name": "stucco"
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 35
+      "iconIdx": 36
     },
     {
       "icon": {
@@ -628,15 +628,15 @@
       "attrs": [],
       "properties": {
         "ligatures": "subtitles",
-        "id": 44,
-        "order": 145,
+        "id": 85,
+        "order": 196,
         "prevSize": 24,
         "code": 57416,
         "name": "subtitles"
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 36
+      "iconIdx": 37
     },
     {
       "icon": {
@@ -656,8 +656,8 @@
       "attrs": [],
       "properties": {
         "name": "briefcase",
-        "id": 18,
-        "order": 111,
+        "id": 51,
+        "order": 161,
         "prevSize": 28,
         "code": 61617
       },
@@ -683,8 +683,8 @@
       "attrs": [],
       "properties": {
         "name": "building",
-        "id": 21,
-        "order": 117,
+        "id": 57,
+        "order": 167,
         "prevSize": 28,
         "code": 61869
       },
@@ -710,8 +710,8 @@
       "attrs": [],
       "properties": {
         "name": "bullhorn",
-        "id": 16,
-        "order": 118,
+        "id": 58,
+        "order": 168,
         "prevSize": 28,
         "code": 61601
       },
@@ -737,8 +737,8 @@
       "attrs": [],
       "properties": {
         "name": "trello",
-        "id": 20,
-        "order": 122,
+        "id": 62,
+        "order": 172,
         "prevSize": 28,
         "code": 61825
       },
@@ -765,8 +765,8 @@
         {}
       ],
       "properties": {
-        "order": 123,
-        "id": 5,
+        "order": 173,
+        "id": 63,
         "name": "drywall-01",
         "prevSize": 28,
         "code": 59657
@@ -793,8 +793,8 @@
       "attrs": [],
       "properties": {
         "name": "fire-extinguisher",
-        "id": 19,
-        "order": 124,
+        "id": 64,
+        "order": 174,
         "prevSize": 28,
         "code": 61748
       },
@@ -820,14 +820,14 @@
       "attrs": [],
       "properties": {
         "name": "home2",
-        "id": 14,
-        "order": 133,
+        "id": 73,
+        "order": 184,
         "prevSize": 28,
         "code": 61461
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 24
+      "iconIdx": 25
     },
     {
       "icon": {
@@ -847,14 +847,14 @@
       "attrs": [],
       "properties": {
         "name": "plug",
-        "id": 22,
-        "order": 138,
+        "id": 78,
+        "order": 189,
         "prevSize": 28,
         "code": 61926
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 29
+      "iconIdx": 30
     },
     {
       "icon": {
@@ -878,15 +878,15 @@
         {}
       ],
       "properties": {
-        "order": 141,
-        "id": 45,
+        "order": 192,
+        "id": 81,
         "name": "spatula-01",
         "prevSize": 28,
         "code": 59658
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 32
+      "iconIdx": 33
     },
     {
       "icon": {
@@ -907,15 +907,15 @@
         {}
       ],
       "properties": {
-        "order": 142,
-        "id": 46,
+        "order": 193,
+        "id": 82,
         "name": "spatula-02",
         "prevSize": 28,
         "code": 59659
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 33
+      "iconIdx": 34
     },
     {
       "icon": {
@@ -936,14 +936,14 @@
       "attrs": [],
       "properties": {
         "name": "exclamation-triangle, warning",
-        "id": 15,
-        "order": 149,
+        "id": 89,
+        "order": 200,
         "prevSize": 28,
         "code": 61553
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 40
+      "iconIdx": 41
     },
     {
       "icon": {
@@ -963,14 +963,14 @@
       "attrs": [],
       "properties": {
         "name": "wrench",
-        "id": 17,
-        "order": 150,
+        "id": 90,
+        "order": 201,
         "prevSize": 28,
         "code": 61613
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 41
+      "iconIdx": 42
     },
     {
       "icon": {
@@ -990,8 +990,8 @@
       "properties": {
         "ligatures": "paint-format, format",
         "name": "paint-format",
-        "order": 128,
-        "id": 10,
+        "order": 178,
+        "id": 68,
         "prevSize": 32,
         "code": 59660
       },
@@ -1021,14 +1021,14 @@
       "properties": {
         "ligatures": "hammer, tool2",
         "name": "hammer",
-        "order": 129,
-        "id": 12,
+        "order": 180,
+        "id": 69,
         "prevSize": 32,
         "code": 59798
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 20
+      "iconIdx": 21
     },
     {
       "icon": {
@@ -1047,14 +1047,14 @@
       "properties": {
         "ligatures": "home, house",
         "name": "home",
-        "order": 132,
-        "id": 8,
+        "order": 183,
+        "id": 72,
         "prevSize": 32,
         "code": 59661
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 23
+      "iconIdx": 24
     },
     {
       "icon": {
@@ -1073,14 +1073,14 @@
       "properties": {
         "ligatures": "home3, house3",
         "name": "home3",
-        "order": 134,
-        "id": 9,
+        "order": 185,
+        "id": 74,
         "prevSize": 32,
         "code": 59662
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 25
+      "iconIdx": 26
     },
     {
       "icon": {
@@ -1100,14 +1100,14 @@
       "properties": {
         "ligatures": "office, buildings",
         "name": "office",
-        "order": 136,
-        "id": 13,
+        "order": 187,
+        "id": 76,
         "prevSize": 32,
         "code": 59663
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 27
+      "iconIdx": 28
     },
     {
       "icon": {
@@ -1131,14 +1131,46 @@
       "properties": {
         "ligatures": "wrench, tool",
         "name": "wrench2",
-        "order": 151,
-        "id": 11,
+        "order": 202,
+        "id": 91,
         "prevSize": 32,
         "code": 59793
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 42
+      "iconIdx": 43
+    },
+    {
+      "icon": {
+        "paths": [
+          "M-0.003 855.892l539.913-539.913 131.892 131.892-539.913 539.913-131.892-131.892z",
+          "M730.773 57.66l-223.611-21.45-80.502 80.496 415.758 415.762 181.581-181.581z"
+        ],
+        "attrs": [
+          {},
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "mallet"
+        ]
+      },
+      "attrs": [
+        {},
+        {}
+      ],
+      "properties": {
+        "order": 179,
+        "id": 48,
+        "name": "mallet",
+        "prevSize": 32,
+        "code": 59666
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 20
     },
     {
       "icon": {
@@ -1155,15 +1187,15 @@
       },
       "attrs": [],
       "properties": {
-        "id": 31,
-        "order": 148,
+        "id": 88,
+        "order": 199,
         "prevSize": 32,
         "code": 59664,
         "name": "warning2"
       },
       "setIdx": 0,
       "setId": 2,
-      "iconIdx": 39
+      "iconIdx": 40
     }
   ],
   "height": 1024,
