@@ -1,3 +1,9 @@
+Options -Indexes
+
+
+#@__HCP_END__@#
+# Anything after the comment above is left alone
+
 #Force www:
 RewriteEngine on
 RewriteCond %{HTTP_HOST} ^trinchi.ch [NC]
