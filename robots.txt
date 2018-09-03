@@ -2,4 +2,3 @@ User-agent: *
 Disallow: /color_pattern.svg
 Disallow: /Readme.md
 Disallow: /.gitignore
-Disallow: /assets/
