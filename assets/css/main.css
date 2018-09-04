@@ -260,6 +260,61 @@ img.sideimg {
 	width: 100%;
 }
 
+/* CUSTOM images for reference section */
+.reference-container {
+	position: relative;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 60%;
+}
+
+.reference-img {
+	display: block;
+
+	height: auto;
+	width: 100%;
+
+	border-style: solid;
+	border-width: 1px;
+	border-color: #7c8081;
+}
+
+.reference-overlay {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+
+	transform: translate(-50%, -50%);
+
+	transition: .5s ease;
+	background-color: #7c8081;
+	opacity: 0;
+
+	height: 100%;
+	width: 100%;
+}
+
+.reference-overlay:hover {
+	opacity: 1;
+}
+
+.reference-text {
+	margin-top: 1em;
+	margin-left: 1em;
+
+	font-size: 80%;
+	text-align: left;
+	color: #fff;
+}
+
+@media screen and (max-width: 980px) {
+	.reference-overlay {
+		display: none;
+	}
+}
+
 /* Grid */
 
 	.row {
