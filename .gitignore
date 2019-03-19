@@ -1,5 +1,6 @@
 .DS_Store
 /other-assets/
 .idea/
+node_modules/
 .htaccess
 googlee8b37b3a7dc3301e.html
