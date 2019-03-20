@@ -1,22 +1,35 @@
 module.exports = function(grunt) {
 
+    const sass = require('node-sass');
+
     grunt.initConfig({
-        less: {
-            development: {
-                options: {
-                    compress: true,
-                    yuicompress: true,
-                    optimization: 2
-                },
+        pkg: grunt.file.readJSON('package.json'),
+        sass: {
+            dist: {
                 files: {
-                    "css/style.min.css": "less/main.less"
+                    'css/style.min.css': 'scss/main.scss'
+                }
+            },
+            options: {
+                implementation: sass,
+                style: 'compressed',
+                sourcemap: true
+            }
+        },
+        autoprefixer:{
+            dist:{
+                options: {
+                    map: true
+                },
+                files:{
+                    'css/style.min.css': 'css/style.min.css'
                 }
             }
         },
         watch: {
             styles: {
-                files: ['less/*.less'],
-                tasks: ['less'],
+                files: ['scss/*.scss'],
+                tasks: ['sass'],
                 options: {
                     spawn: false
                 }
@@ -24,9 +37,10 @@ module.exports = function(grunt) {
         }
     });
 
-    grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-sass');
+    grunt.loadNpmTasks('grunt-autoprefixer');
     grunt.loadNpmTasks('grunt-contrib-watch');
 
-    grunt.registerTask('default', ['less', 'watch']);
+    grunt.registerTask('default', ['sass','autoprefixer', 'watch']);
 
 };
