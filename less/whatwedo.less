@@ -1,0 +1,43 @@
+@import "definitions";
+
+.whatwedo {
+
+    &__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: -@gutter;
+    }
+
+    .box {
+        width: 100%;
+        background-color: @color-secondary;
+        color: @color-text;
+        font-family: @font-family-text;
+
+        @media @tablet-up {
+            width: 50%;
+        }
+
+        @media @desktop-up {
+            width: 100%/3;
+        }
+
+        &__inner {
+            padding: @gutter;
+
+            .icon {
+                display: block;
+            }
+        }
+
+        &__title {
+            text-transform: uppercase;
+            text-align: center;
+        }
+
+        &__text {
+            text-align: center;
+        }
+    }
+}

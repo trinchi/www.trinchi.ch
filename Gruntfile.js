@@ -28,7 +28,7 @@ module.exports = function(grunt) {
         watch: {
             styles: {
                 files: ['less/*.less'],
-                tasks: ['less'],
+                tasks: ['less','autoprefixer'],
                 options: {
                     spawn: false
                 }

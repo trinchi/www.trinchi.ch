@@ -1,0 +1,59 @@
+@import "definitions";
+
+.header {
+    position: absolute;
+    width: 100%;
+    font-family: @font-family-title;
+    color: @color-background;
+
+    &--scrolled {
+        background-color: @color-background;
+    }
+
+    &__logo {
+
+        h1 {
+            padding: @p-md;
+            font-size: @font-size-text;
+        }
+
+    }
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        font-size: @font-size-text;
+
+        nav {
+            display: none;
+
+            ul {
+                display: inline-flex;
+                justify-content: space-between;
+
+                li {
+                    display: block;
+                    padding: @p-md;
+
+                    &:last-child {
+                        padding-right: 0;
+                    }
+
+                    &:hover {
+                        color: @color-background;
+                    }
+                }
+            }
+
+            a {
+                color: inherit;
+            }
+
+            @media @desktop-up {
+                display: flex;
+            }
+        }
+    }
+}

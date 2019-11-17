@@ -10,12 +10,8 @@
   },
   "author": "David Trinchi",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/trinchi/www.trinchi.ch/issues"
-  },
-  "homepage": "https://github.com/trinchi/www.trinchi.ch#readme",
   "devDependencies": {
-    "grunt": "^1.0.3",
+    "grunt": "^1.0.4",
     "grunt-autoprefixer": "^3.0.4",
     "grunt-cli": "^1.3.2",
     "grunt-contrib-less": "^2.0.0",
